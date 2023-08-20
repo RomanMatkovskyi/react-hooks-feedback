@@ -4,17 +4,17 @@ export const FeedbackOptions = ({ options }) => {
   return (
     <ul className={s.btn_list}>
       <li>
-        <button className={s.btn} onClick={() => options('good')}>
+        <button name="good" className={s.btn} onClick={options}>
           Good
         </button>
       </li>
       <li>
-        <button className={s.btn} onClick={() => options('neutral')}>
+        <button name="neutral" className={s.btn} onClick={options}>
           Neutral
         </button>
       </li>
       <li>
-        <button className={s.btn} onClick={() => options('bad')}>
+        <button name="bad" className={s.btn} onClick={options}>
           Bad
         </button>
       </li>
