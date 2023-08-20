@@ -1,0 +1,14 @@
+.stat_section {
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgba(110, 118, 125, 0.23);
+}
+
+.mainTitle {
+  color: #29231f;
+  text-align: center;
+}

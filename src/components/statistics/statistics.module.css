@@ -1,0 +1,27 @@
+ul {
+  padding: 0;
+}
+
+.secondary_title {
+  color: #29231f;
+  margin-left: 33px;
+}
+
+.list {
+  width: 450px;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list_item {
+  text-transform: uppercase;
+}
+
+.positive_stat {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #29231f;
+  margin-left: 33px;
+}
